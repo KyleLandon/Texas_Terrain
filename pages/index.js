@@ -12,6 +12,7 @@ export default function Home() {
 
       <main>
         <div class="navbar">
+          <img src="/logo+text.png" alt="Logo" class="logo"></img>
           <a href="#">Home</a>
           <a href="#">Services</a>
           <a href="#">About</a>
