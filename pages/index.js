@@ -6,23 +6,22 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Texas Terrain</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <div class="navbar">
           <a href="#">Home</a>
-          <a href="services.js">Services</a>
+          <a href="#">Services</a>
           <a href="#">About</a>
           <a href="#">Contact</a>
         </div>
 
-        <Header title="Welcome to my app!" />
+        <Header title="Texas Terrain, LLC" />
         <Header title="Working on The Website Right Now <3" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
+
+
       </main>
 
       <Footer />
