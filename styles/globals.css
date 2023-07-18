@@ -45,7 +45,7 @@ code {
 }
 .navbar .logo {
   float: left;
-  height: 40px; /* Adjust the height to fit your logo */
+  height: 75%px; /* Adjust the height to fit your logo */
   padding: 10px;
 }
 
