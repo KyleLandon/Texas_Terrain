@@ -64,8 +64,9 @@ code {
   color: black;
 }
 
-.contact_QR a{
-  size-adjust: 50%;
+.contact_QR a {
+  width: 25px; /* Adjust the desired width */
+  height: auto; /* Maintain aspect ratio */
 }
 
 
