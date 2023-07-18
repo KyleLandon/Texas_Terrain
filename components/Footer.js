@@ -5,6 +5,7 @@ export default function Footer() {
     <>
       <footer className={styles.footer}>
         <img src="/logo+text.png" alt="Texas Terrain Logo" className={styles.logo} />
+        <p>Texas Terrain, LLC 2023</p>
       </footer>
     </>
   )
