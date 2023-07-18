@@ -37,6 +37,9 @@ code {
 
 /* CSS styling for the navigation bar */
 .navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
   background-color: #333;
   overflow: hidden;
 }
