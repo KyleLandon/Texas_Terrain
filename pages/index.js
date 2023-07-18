@@ -11,6 +11,15 @@ export default function Home() {
       </Head>
 
       <main>
+
+        <!-- Navigation Bar -->
+        <div class="navbar">
+          <a href="#">Home</a>
+          <a href="#">Services</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+
         <Header title="Welcome to my app!" />
         <Header title="Working on The Website Right Now <3" /> 
         <p className="description">
