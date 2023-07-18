@@ -8,6 +8,7 @@ export default function Home() {
       <Head>
         <title>Texas Terrain</title>
         <link rel="icon" href="/favicon.ico" />
+        <script id="housecall-pro-chat-bubble" src="https://chat.housecallpro.com/proChat.js" type="text/javascript" data-color="#2378cf" data-organization="1c362d34-771a-42a9-a95e-26a22ca2634a"></script>
       </Head>
 
       <main>
