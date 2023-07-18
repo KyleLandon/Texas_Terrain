@@ -11,6 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
+        
         <div class="navbar">
           <img src="/logo+text.png" alt="Logo" class="logo"></img>
           <a href="#">Home</a>
@@ -23,7 +24,6 @@ export default function Home() {
         <Header title="Working on The Website Right Now <3" />
         <Header title="Scan QR Below to Contact Us!" />
         <img src="/Contact_Info_QR.png" alt="Contact_QR" class="contact_QR"></img>
-
 
       </main>
 
