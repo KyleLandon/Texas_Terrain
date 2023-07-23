@@ -38,7 +38,8 @@ code {
 /* CSS styling for the navigation bar */
 
 .logo {
-  float: left;
+  position: fixed;
+  left: 5%;
   height: 100px; /* Adjust the height to fit your logo */
   padding: 10px;
 }
