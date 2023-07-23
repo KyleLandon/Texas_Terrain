@@ -9,18 +9,16 @@ export default function Home() {
         <title>Texas Terrain</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <navigator>
-
-      <img src="/logo+text.png" alt="Logo" class="logo"></img>
-
-      <div class="navbar">
-        <a href="#">Home</a>
-        <a href="#">Services</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-      </div>
       
-      </navigator>
+      <div class="navbar_container">
+        <img src="/logo+text.png" alt="Logo" class="logo"></img>
+        <div class="navbar">
+          <a href="#">Home</a>
+          <a href="#">Services</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
 
       <main>
         <div class="main_panel">
