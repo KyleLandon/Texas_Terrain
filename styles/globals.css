@@ -40,7 +40,7 @@ code {
   position: fixed;
   top: 5%;
   left: 15%;
-  background-color: #333;
+  background-color: transparent;
   overflow: hidden;
 }
 .navbar .logo {
@@ -52,7 +52,7 @@ code {
 .navbar a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: transparent;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -60,12 +60,12 @@ code {
 }
 
 .navbar a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: black;
+  color: transparent;
 }
 
 .contact_QR a {
-  width: 25px; /* Adjust the desired width */
+  width: 10px; /* Adjust the desired width */
   height: auto; /* Maintain aspect ratio */
 }
 
