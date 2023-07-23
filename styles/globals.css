@@ -36,17 +36,19 @@ code {
 
 
 /* CSS styling for the navigation bar */
+
+.logo {
+  float: left;
+  height: 100px; /* Adjust the height to fit your logo */
+  padding: 10px;
+}
+
 .navbar {
   position: fixed;
   top: 5%;
   left: 15%;
   background-color: transparent;
   overflow: hidden;
-}
-.navbar .logo {
-  float: left;
-  height: 100px; /* Adjust the height to fit your logo */
-  padding: 20px;
 }
 
 .navbar a {
