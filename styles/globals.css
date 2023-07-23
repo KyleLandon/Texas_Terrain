@@ -62,6 +62,7 @@ code {
 .navbar a:hover {
   background-color: black;
   color: white;
+  font-size: 25px;
 }
 
 .contact_QR a {
