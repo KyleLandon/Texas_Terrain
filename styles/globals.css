@@ -63,6 +63,7 @@ code {
   background-color: black;
   color: white;
   font-size: 22px;
+  border-radius: 10px;
 }
 
 .contact_QR a {
