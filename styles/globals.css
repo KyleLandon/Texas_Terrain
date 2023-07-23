@@ -78,7 +78,7 @@ code {
   grid-template-columns: repeat(2, 500px); /* Create a 2x2 grid with 300px columns */
   grid-gap: 20px; /* Add some spacing between the panels */
   margin: 50px auto; /* Center the grid horizontally */
-  top: 20%;
+  top: 50%;
 }
 
 .panel_1,
