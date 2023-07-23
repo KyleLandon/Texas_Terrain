@@ -69,6 +69,53 @@ code {
   border-radius: 10px;
 }
 
+.main_panel {
+  display: grid;
+  grid-template-columns: repeat(2, 300px); /* Create a 2x2 grid with 300px columns */
+  grid-gap: 20px; /* Add some spacing between the panels */
+  margin: 50px auto; /* Center the grid horizontally */
+}
+
+.panel_1,
+.panel_2,
+.panel_3,
+.panel_4 {
+  background-color: #fff; /* Set the background color of the panels */
+  border-radius: 20px; /* Adjust the value to control the roundness of the edges */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a box shadow for a modern look */
+  padding: 20px;
+}
+
+.panel_1 Header,
+.panel_2 Header,
+.panel_3 Header,
+.panel_4 Header {
+  font-size: 24px;
+  color: #333; /* Set the color of the heading */
+  margin-bottom: 10px;
+}
+
+/* Add spacing between the title and the content */
+.panel_1 p,
+.panel_2 p,
+.panel_3 p,
+.panel_4 p {
+  margin-top: 10px;
+}
+
+/* Additional styles for responsiveness (optional) */
+@media (max-width: 700px) {
+  .main_panel {
+    grid-template-columns: 100%; /* On smaller screens, set the grid to a single column */
+  }
+}
+
+
+
+
+
+
+
 .contact_QR a {
   width: 10px; /* Adjust the desired width */
   height: auto; /* Maintain aspect ratio */

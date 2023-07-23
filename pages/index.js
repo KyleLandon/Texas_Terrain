@@ -21,6 +21,21 @@ export default function Home() {
           <a href="#">Contact</a>
         </div>
 
+        <div class="main_panel">
+          <div class="panel_1">
+            <Header title="Panel One"/>
+          </div>
+          <div class="panel_2">
+            <Header title="Panel Two"/>
+          </div>
+          <div class="panel_3">
+            <Header title="Panel Three"/>
+          </div>
+          <div class="panel_4">
+            <Header title="Panel Four"/>
+          </div>
+        </div>
+
         <Header title="Texas Terrain, LLC" />
         <Header title="Working on The Website Right Now <3" />
         <Header title="Scan QR Below to Contact Us!" />
