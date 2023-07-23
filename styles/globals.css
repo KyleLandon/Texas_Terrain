@@ -40,6 +40,7 @@ code {
 .logo {
   position: fixed;
   left: 5%;
+  top: 5%;
   height: 100px; /* Adjust the height to fit your logo */
   padding: 10px;
 }
